@@ -1,0 +1,704 @@
+@font-face{
+  font-family:'indie';
+  src: url(../fuentes/indie.ttf);
+  font-family: 'Tourner';
+  src: url(../fuentes/Tourner.ttf);
+}
+
+/*<------------------------------>*/
+/*PAGINA INDEX*/
+.index{
+    margin: 0px;
+    font-size: 18px;
+    color: darkred;
+    background-image: url(../img/fondo10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+nav{
+    background-color:black;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.9;
+    transition-duration: 800ms;
+    height: 70px;
+}
+nav:hover{
+    opacity: 1;
+}
+ul{
+    margin: 1px;
+}
+li{
+    float: left;
+    width: 12%;
+    text-align: center;
+    color: crimson;
+    list-style: none;
+    margin-top: -30px;
+    transition-duration: 800ms;
+}
+li:hover{
+    margin-top: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.capa_ico{
+    width: 100%;
+    height: 25px;
+    float: left;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    position: relative;
+    top: -5px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+
+h6{
+    padding-top: 150px;
+    margin-left: 40px;
+    color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 35px;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.instagram2{
+    width: 30px;
+    height: 30px;
+margin-right: 10px;
+}
+.facebook2{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.twitter2{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.youtube2{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.seis{
+    transition: none;
+    margin-top: 12px;
+    cursor: pointer;
+    display: flex;
+    float: left;
+    padding-left: 200px;
+}
+
+.linkedin2{
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+
+
+/*PAGINA INDEX*/
+
+/*<------------------------------>*/
+
+/*PAGINA QUIENES SOMOS*/
+.somos{
+    margin: 0px;
+    font-size: 20px;
+    background-image: url(../img/circuito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.container{
+    padding-top: 50px;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 100px;
+  }
+
+  .container:hover{
+opacity: 0.8;
+  }
+.titulo1{
+    margin-top: -30px;
+    font-family: 'Tourner';
+    font-size: 80px;
+  cursor: pointer;
+}
+
+.titulo1:hover{
+    opacity: 1;
+color: royalblue;
+}
+
+.container2{
+    padding-bottom: 30px;
+    align-items: center;
+    color: white;
+
+    
+}
+
+.uno{
+    color: white;
+    font-size: 0.5cm;
+    text-align: center;
+    font-family: monospace
+    
+}
+
+.imagen1{
+    float: left;
+    width: 500px;
+    cursor: pointer;
+}
+.imagen1:hover{
+    transform: rotateY(180deg);
+}
+.container3{
+    float: left;
+    
+}
+
+.tres{
+   
+    float: left;
+    text-align: center;
+    margin-top: 20;
+    padding-bottom: 10;
+    color: white;
+    font-family: monospace;
+}
+
+.imagen2{
+   width: 500px;
+float: left;
+cursor: pointer;
+
+}
+
+.imagen2:hover{
+    filter: sepia(50%);
+}
+   
+
+
+/*PAGINA QUIENES SOMOS*/
+
+/*<------------------------------>*/
+/*PAGINA INSTALACIONES*/
+
+.instalaciones{
+    margin: 0px;
+    font-size: 20px;
+    background-image: url(../img/futuro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.instalacionesheader{
+    margin-top: -95px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+    font-size: 70px;
+    
+}
+
+.instalacionesheader:hover{
+    opacity: 0.8;
+}
+
+.tituloinstalaciones{
+font-family: 'Tourner';
+cursor: pointer;
+}
+.tituloinstalaciones:hover{
+    opacity: 1;
+color: royalblue;
+}
+.instalacionespanel{
+    width: 500px;
+    height: 300px;
+    float: right;
+    cursor: pointer;
+}
+.parrafo{
+    color: white;
+    font-family: monospace;
+}
+.instalacionesimg2{
+cursor: pointer;
+}
+.parrafo2{
+    color: white;
+    text-align: right;
+    font-family: monospace;
+}
+.parrafo3{
+    color: white;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+}
+.img3{
+    width: 700px;
+    height: 460px;
+    float: right;
+    cursor: pointer;
+    
+}
+
+/*PAGINA INSTALACIONES*/
+
+/*<------------------------------>*/
+
+/*PAGINA SERVICIOS*/
+
+.servicios{
+    margin: 0px;
+    font-size: 20px;
+    background-image: url(../img/logo8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.servheader{
+    padding-top: 20px;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+    
+}
+
+
+.servheader:hover{
+    opacity: 0.8;
+}
+
+.tituloheader{
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 80px;
+    font-family:'Tourner';
+    cursor: pointer;
+}
+
+.tituloheader:hover{
+opacity: 1;
+color: royalblue;
+}
+
+
+div{
+    border-radius: 5px;
+}
+.contenedor{
+    width:100%;
+    height:100px;
+display:flex;
+justify-content: space-around;
+}
+.contenido{
+    height:80px;
+    width:20%;
+    float:left;
+    margin: 10px;
+    color: white;
+   font-family:monospace
+}
+
+.titlesciberseguridad{
+color: yellowgreen;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitlesciberseguridad{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seguridadinformatica{
+    height: 250px;
+    width: 310px;
+    cursor: pointer;
+}
+
+/*----------------------*/
+
+
+
+.defensaciber{
+    height: 250px;
+    width: 310px;
+    cursor: pointer;
+
+}
+
+.operacionesavanzadas{
+    height: 250px;
+    width: 310px;
+    cursor: pointer;
+}
+
+
+/*----------------------*/
+
+.seguridadnube{
+    height: 250px;
+    width: 290px;
+    cursor: pointer;
+}
+
+.cloud1{
+    height: 250px;
+    width: 290px;
+    cursor: pointer;
+}
+
+/*----------------------*/
+
+
+
+
+
+/*PAGINA SERVICIOS*/
+
+
+/*<------------------------------>*/
+
+/*PAGINA PRODUCTOS*/
+.productos{
+    margin: 0px;
+    font-size: 18px;
+    color: darkred;
+    background-image: url(../img/fondoproducto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%
+}
+
+
+.productosheader{
+    padding-top: 20px;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+}
+.productosheader:hover{
+opacity: 0.85;
+
+}
+
+.bigtitleprod{
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 80px;
+    font-family:'Tourner';
+    cursor: pointer;
+}
+
+.bigtitleprod:hover{
+    opacity: 1;
+color: royalblue;
+}
+
+.productopadre{
+    width:100%;
+    height:100px;
+display:flex;
+justify-content: space-around;
+}
+.productohijo{
+    height:80px;
+    width:40%;
+    float:left;
+    margin: 10px;
+    color: wheat;
+    text-align: center;
+    font-family: monospace
+}
+
+.subtitleproductos{
+color: purple;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-style: oblique;
+}
+
+.imagenesprod{
+    height: 250px;
+    width: 310px;
+    cursor: pointer;
+    
+    
+}
+.h5productos{
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+
+/*PAGINA PRODUCTOS*/
+/*<------------------------------>*/
+
+/*PAGINA CONTACTO*/
+
+.contacto{
+    margin: 0px;
+    font-size: 18px;
+    color: darkred;
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.contactoheader{
+    padding-top: 20px;
+    text-align: center;
+    background-color: crimson;
+    width: 100%;
+    height: 150px;
+}
+
+.contactoheader:hover{
+    opacity: 0.8;
+}
+
+.titulocontacto{
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 80px;
+    font-family:'Tourner';
+    cursor: pointer;
+}
+
+.titulocontacto:hover{
+    color: royalblue;
+    opacity: 1;
+}
+
+form{
+    background-color: grey;
+    width: 35%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border: 20px solid crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.twocolums{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: purple;
+    font-size: 14px;
+}
+
+input,textarea{
+    background-color: royalblue;
+    border: none;
+    border-bottom: 2px solid gray
+    padding: 2px;
+    color: white;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+    border: 2px solid gray
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    background-color: grey
+}
+
+.env{
+background-color:yellowgreen;
+cursor: pointer;
+padding:15px 40px ;
+transition: all 0.3s;
+}
+.env:hover{
+padding: 15px 90px;
+background-color: teal;
+}
+
+.bor{
+    background-color: red;
+    cursor: pointer;
+    padding:15px 40px ;
+transition: all 0.3s;
+}
+
+.bor:hover{
+    padding: 15px 90px;
+background-color: teal;
+}
+
+.adj{
+    background-color: gray;
+    cursor: pointer;
+    padding:15px 40px ;
+transition: all 0.3s;
+}
+
+.adj:hover{
+    padding:15px 90px ;
+    background-color: yellow;
+}
+
+.lista{
+    color: white;
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedormapa{
+   
+display:flex;
+justify-content: space-around;
+background-color: slateblue;
+width: 100%;
+height: 250px;
+}
+
+.contenedormapa:hover{
+opacity: 0.8;
+}
+
+.contenidomapa{
+    height:80px;
+    width:40%;
+    margin: 10px;
+    color: red;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.titulomapa{
+font-family: cursive;
+font-size: 26px;
+color: yellowgreen;
+}
+
+
+.footermap{
+    height: 220px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.facebook:hover{
+    width: 80px;
+    height: 80px;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.twitter:hover{
+    width: 80px;
+    height: 80px;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.instagram:hover{
+    width: 80px;
+    height: 80px;
+}
+
+.youtube{
+
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.youtube:hover{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+/*PAGINA CONTACTO*/
